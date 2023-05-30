@@ -5,7 +5,8 @@ Métodos: troca Cor e mostra Cor'''
 
 
 class Bola:
-    def __init__(self, cor, circunferencia, material):
+    '''classe que modela uma bola'''
+    def __init__(self, cor, circunferencia, material): #método construtor da classe 
         self.cor = cor
         self.circunferencia = circunferencia
         self.material = material
